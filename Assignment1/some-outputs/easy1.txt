@@ -1,0 +1,112 @@
+easy1 = [
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['0', '0', '0', '0', '0', '0', '0', '0', '0', 'S', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X'],
+    ['X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X', 'X']
+]
+#SOLUTION BELOW
+
+ADMISSIBLE
+
+Solution founded
+Path (from root):
+Root Node
+F value: 9
+H value: 9
+G value: 0
+State:
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ '0'  '0'  '0'  '0'  '0'  '0'  '0'  '0'  '0'  'S'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+------------------------------------------
+Direction: LEFT
+F value: 9
+H value: 0
+G value: 9
+State:
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'S'  '1'  '1'  '1'  '1'  '1'  '1'  '1'  '1'  '1'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+------------------------------------------
+-------------------------------------------------
+Admissible Result:
+Total Travel distance: 9
+Total Solution path distance: 9
+Number of expanded Node: 2
+CPU Time (Admissible): 0.0016520000000000146 seconds
+Memory Usage (Admissible): 41418752 bytes
+
+
+INADMISSIBLE
+
+Solution founded
+Path (from root):
+Root Node
+F value: 144
+H value: 144
+G value: 0
+State:
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ '0'  '0'  '0'  '0'  '0'  '0'  '0'  '0'  '0'  'S'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+------------------------------------------
+Direction: LEFT
+F value: 153
+H value: 144
+G value: 9
+State:
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'S'  '1'  '1'  '1'  '1'  '1'  '1'  '1'  '1'  '1'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+[ 'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  'X'  ]
+------------------------------------------
+-------------------------------------------------
+Inadmissible Result:
+Total Travel distance: 9
+Total Solution path distance: 9
+Number of expanded Node: 2
+CPU Time (Inadmissible): 0.0017280000000000073 seconds
+Memory Usage (Inadmissible): 42434560 bytes
